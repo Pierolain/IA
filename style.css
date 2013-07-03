@@ -1,6 +1,7 @@
 ﻿body{
-margin: auto;
-padding: auto;
+margin: 0;
+padding: 0;
+position: absolute;
 }
 
 p
@@ -12,29 +13,34 @@ text-align: justify;
 
 #menu{
 float: center;
-background-color: blue;
+/*background-color: #7f7f7f;*/
 height:40px;
-margin:3px;
 }
 
 #menu ul{
-float:center;
-
+position:relative;
+margin:0;
+padding: 0;
 }
 
 #menu ul li{
 	float: left;
+
 	list-style: none;
 }
 
 #menu ul a{
-	color: red;
+	text-align:center;
+	color: blue;
 	text-decoration:none;
+	background: #e0e1e7;
 	display:block;
 	border: solid 3px;
+	border-radius: 0px 0px 12px 12px;
 	border-color: purple;
-	margin:4px;
-	height: 20px;
+	margin:5px;
+	margin-top: 0px;
+	height: 30px;
 }
 
 #menu ul a:hover{
